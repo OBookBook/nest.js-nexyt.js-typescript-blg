@@ -1,1 +1,6 @@
-# nest.js-nexyt.js-typescript-blg
+# Nest.js
+
+```shell
+# create module comand
+nest generate module posts
+```
