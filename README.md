@@ -3,4 +3,6 @@
 ```shell
 # create module comand
 nest generate module posts
+# create controller comand
+nest generate controller posts
 ```
