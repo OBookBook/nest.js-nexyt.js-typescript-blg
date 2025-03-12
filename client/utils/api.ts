@@ -6,3 +6,12 @@ export async function getAllPosts() {
 
   return data;
 }
+
+export async function getPostById(id: string) {
+  const response = await fetch(`http:localhost:5000/posts/${id}`, {
+    method: "GET",
+  });
+  const data = await response.json();
+
+  return data;
+}
